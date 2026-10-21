@@ -543,7 +543,7 @@ function resetTestimonialForm() {
 async function handleTestimonialSubmit(e) {
   e.preventDefault();
   const id = document.getElementById('testId').value;
-.payload = {
+  const payload = {
     client_name: document.getElementById('testClient').value,
     business_name: document.getElementById('testBusiness').value,
     category: document.getElementById('testCategory').value,

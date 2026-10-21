@@ -1,0 +1,10 @@
+{
+  "name": "korydo-production",
+  "version": "1.0.0",
+  "description": "Plataforma Full-Stack Korydo: Diseño Web, IA/n8n y Tecnología NFC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}

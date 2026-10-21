@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacta con Korydo y envía los detalles de tu proyecto o comprobante de pago.">
+  <title>Contacto y Envío de Comprobantes | Korydo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">K</span> Korydo.</a>
+    <nav aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a aria-current="page" href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Atención Directa</p>
+      <h1>Contáctanos</h1>
+      <p>Escríbenos directamente por WhatsApp para presupuestos rápidos o completa el formulario adjuntando tu comprobante/resguardo si ya has contratado un servicio.</p>
+      <a class="button button-whatsapp" href="https://wa.me/34630954418">WhatsApp: +34 630 954 418</a>
+    </section>
+
+    <section class="content-card form-card">
+      <h2>Registro de Proyecto / Subida de Comprobante</h2>
+      <form action="#" method="get">
+        <label>Nombre *<input name="name" autocomplete="name" required></label>
+        <label>Negocio *<input name="business" autocomplete="organization" required></label>
+        <label>Teléfono *<input name="phone" type="tel" autocomplete="tel" required></label>
+        <label>Email *<input name="email" type="email" autocomplete="email" required></label>
+        <label>Detalles del pedido o consulta<textarea name="message" rows="4"></textarea></label>
+        <label>Resguardo / Comprobante de Pago (Privado)<input name="receipt" type="file" accept=".pdf,.png,.jpg,.jpeg,.webp"></label>
+        <p class="hint">Formatos admitidos: PDF, PNG, JPG, WEBP (Almacenamiento privado encriptado fuera de la web pública).</p>
+        <button class="button button-primary" type="submit">Enviar de forma segura</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a href="index.html">K Korydo.</a><span>© 2026 Todos los derechos reservados.</span></footer>
+</body>
+</html>
